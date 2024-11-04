@@ -1,0 +1,142 @@
+{
+  "sprites": [
+    {
+      "name": "ground",
+      "typeHash": 1,
+      "color": {
+        "r": 0,
+        "g": 255,
+        "b": 0,
+        "a": 255
+      },
+      "position": {
+        "x": 0,
+        "y": 550,
+        "width": 800,
+        "height": 50
+      },
+      "timeline": 64,
+      "movement": null
+    },
+    {
+      "name": "platform1",
+      "typeHash": 2,
+      "color": {
+        "r": 0,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      },
+      "position": {
+        "x": 500,
+        "y": 50,
+        "width": 70,
+        "height": 30
+      },
+      "timeline": 10,
+      "movement": "bouncing",
+      "movementParams": {
+        "bounceSpeed": 20,
+        "bounceHeight": 0
+      }
+    },
+    {
+      "name": "stationary",
+      "typeHash": 3,
+      "color": {
+        "r": 255,
+        "g": 0,
+        "b": 255,
+        "a": 255
+      },
+      "position": {
+        "x": 500,
+        "y": 150,
+        "width": 100,
+        "height": 40
+      },
+      "timeline": 10,
+      "movement": null
+    },
+    {
+      "name": "platform3",
+      "typeHash": 4,
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      },
+      "position": {
+        "x": 500,
+        "y": 250,
+        "width": 100,
+        "height": 30
+      },
+      "timeline": 10,
+      "movement": "bouncing",
+      "movementParams": {
+        "bounceSpeed": 0,
+        "bounceHeight": 10
+      }
+    },
+    {
+      "name": "stationary1",
+      "typeHash": 5,
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 0,
+        "a": 255
+      },
+      "position": {
+        "x": 200,
+        "y": 350,
+        "width": 200,
+        "height": 20
+      },
+      "timeline": 10,
+      "movement": null
+    },
+    {
+      "name": "platform5",
+      "typeHash": 6,
+      "color": {
+        "r": 0,
+        "g": 255,
+        "b": 0,
+        "a": 255
+      },
+      "position": {
+        "x": 500,
+        "y": 450,
+        "width": 100,
+        "height": 30
+      },
+      "timeline": 10,
+      "movement": "bouncing",
+      "movementParams": {
+        "bounceSpeed": 20,
+        "bounceHeight": 0
+      }
+    },
+    {
+      "name": "jumper",
+      "typeHash": 7,
+      "color": {
+        "r": 255,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "position": {
+        "x": 100,
+        "y": 100,
+        "width": 50,
+        "height": 50
+      },
+      "timeline": 10,
+      "movement": "controllable"
+    }
+  ]
+}

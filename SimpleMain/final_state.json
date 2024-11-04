@@ -1,0 +1,57 @@
+{
+    "sprites": [
+        {
+            "drawer": {
+                "a": 255,
+                "b": 255,
+                "g": 255,
+                "r": 255
+            },
+            "movement": {
+                "direction": 0.0,
+                "speed": 0.0
+            },
+            "name": "jumper",
+            "position": {
+                "height": 50,
+                "width": 50,
+                "x": 100.0,
+                "y": 100.0
+            }
+        },
+        {
+            "drawer": {
+                "a": 255,
+                "b": 255,
+                "g": 255,
+                "r": 255
+            },
+            "name": "ground",
+            "position": {
+                "height": 50,
+                "width": 800,
+                "x": 0.0,
+                "y": 550.0
+            }
+        },
+        {
+            "drawer": {
+                "a": 255,
+                "b": 255,
+                "g": 255,
+                "r": 255
+            },
+            "movement": {
+                "direction": 0.0,
+                "speed": 0.0
+            },
+            "name": "platform",
+            "position": {
+                "height": 60,
+                "width": 80,
+                "x": 500.0,
+                "y": 200.0
+            }
+        }
+    ]
+}
